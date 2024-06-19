@@ -8,7 +8,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings  # 修改引用路徑
 from langchain.llms import OpenAI
 
 # 設置 OpenAI API 密鑰
-openai.api_key = os.getenv('sk-proj-PcHViv3eFmSno2FhjIi3BlbKfJ7SEQtkgwIZ31cgGTWGzq')
+openai.api_key = os.getenv('my key')
 
 # 示例文檔
 documents = [
